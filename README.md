@@ -62,6 +62,22 @@ iex(1)> Lyrics.get("Led Zeppelin", "When the Levee Breaks", :map)
 }
 ```
 
+## Escript
+
+If you want to build the `escript` (an executable that can run with only erlang installed) run:
+
+```elixir
+mix escript.build
+```
+
+The `lyrics` binary will be generated in the root folder of the project.
+You can invoke the `lyrics` binary by copying it in a folder in your path or
+directly from the root folder of the project:
+
+```elixir
+./lyrics "Velvet Underground" "Sunday morning"
+```
+
 ## Installation
 
 If [available in Hex](https://hex.pm/docs/publish), the package can be installed
