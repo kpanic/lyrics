@@ -74,7 +74,7 @@ The `lyrics` binary will be generated in the root folder of the project.
 You can invoke the `lyrics` binary by copying it in a folder in your path or
 directly from the root folder of the project:
 
-```elixir
+```bash
 ./lyrics "Velvet Underground" "Sunday morning"
 ```
 
