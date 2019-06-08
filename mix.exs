@@ -7,7 +7,8 @@ defmodule Lyrics.MixProject do
       version: "0.1.0",
       elixir: "~> 1.7",
       start_permanent: Mix.env() == :prod,
-      deps: deps()
+      deps: deps(),
+      escript: escript()
     ]
   end
 
@@ -24,5 +25,9 @@ defmodule Lyrics.MixProject do
       {:floki, "~> 0.20.0"},
       {:httpoison, "~> 1.5"}
     ]
+  end
+
+  defp escript do
+    [main_module: Lyrics.CLI]
   end
 end
