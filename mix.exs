@@ -23,7 +23,7 @@ defmodule Lyrics.MixProject do
   defp deps do
     [
       {:floki, "~> 0.20.0"},
-      {:httpoison, "~> 1.5"}
+      {:httpoison, "~> 1.6.2"}
     ]
   end
 
